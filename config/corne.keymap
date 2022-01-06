@@ -24,11 +24,11 @@
             &none &kp Q &kp W &kp E &kp R &kp T &kp Y &kp U &kp I &kp O &kp P &none
             &none &th_tap LCMD A &th_tap LALT S &th_tap LCTRL D &th_tap LSHFT F &kp G &kp H &th_tap RSHFT J &th_tap RCTRL K &th_tap RALT L &th_tap RCMD APOS &none
             &none &th_tap LG(LA(LC(LSHFT))) Z &kp X &kp C &kp V &th_tap LA(LC(LSHFT)) B &kp N &kp M &kp COMMA &kp DOT &kp SLASH &none
-            &lt CTRLS ESC &lt NAV SPACElt NUM TAB lt SYM ENTER lt NUM BSPC &lt FN DEL
+            &lt CTRLS ESC &lt NAV SPACE &lt NUM TAB &lt SYM ENTER &lt NUM BSPC &lt FN DEL
             >;
       };
 
-      navigation {
+      lower_layer {
          bindings = <
             &none &kp LEFT &kp DOWN &kp UP &kp RIGHT &none &none &none &none &none &none &none
             &none &kp LCMD &kp LALT &kp LCTRL &kp LSHFT &none &kp LEFT &kp DOWN &kp UP &kp RIGHT &none &none
@@ -37,7 +37,7 @@
             >;
       };
 
-      controls {
+      raise_layer {
          bindings = <
             &none &none &none &none &none &none &none &none &none &none &none &none
             &bt BT_CLR &bt BT_SEL 0 &bt BT_SEL 1 &bt BT_SEL 2 &bt BT_SEL 3 &bt BT_SEL 4 &none &kp C_PREV &kp C_VOL_UP &kp C_VOL_DN &kp C_NEXT &none
@@ -46,7 +46,7 @@
             >;
       };
 
-      numbers {
+      raise_layer {
          bindings = <
             &none &kp LBKT &kp N7 &kp N8 &kp N9 &kp RBKT &none &none &none &none &none &none
             &none &kp SEMI &kp N4 &kp N5 &kp N6 &kp EQUAL &none &kp RSHFT &kp RCTRL &kp RALT &kp RCMD &none
@@ -55,7 +55,7 @@
             >;
       };
 
-      symbols {
+      raise_layer {
          bindings = <
             &none &kp LBRC &kp AMPS &kp STAR &kp LPAR &kp RBRC &none &none &none &none &none &none
             &none &kp SEMI &kp DLLR &kp PRCNT &kp CARET &kp PLUS &none &kp RSHFT &kp RCTRL &kp RALT &kp RCMD &none
@@ -64,7 +64,7 @@
             >;
       };
 
-      functions {
+      raise_layer {
          bindings = <
             &none &kp F1 &kp F2 &kp F3 &kp F4 &kp F5 &none &none &none &none &none &none
             &none &kp F6 &kp F7 &kp F8 &kp F9 &kp F10 &none &kp RSHFT &kp RCTRL &kp RALT &kp RCMD &none
