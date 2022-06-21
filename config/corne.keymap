@@ -36,9 +36,10 @@
     combos {
         compatible = "zmk,combos";
 
-        new_combo {
+        jk_Escape {
             bindings = <&kp ESCAPE>;
             key-positions = <19 20>;
+            layers = <0>;
         };
     };
 
