@@ -59,8 +59,8 @@
         default_layer {
             bindings = <
   &none                     &kp Q           &kp W               &kp E             &kp R                 &kp T        &kp Y              &kp U                &kp I            &kp O                         &kp P   &none
-  &none        &hm LEFT_COMMAND A  &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F                 &kp G        &kp H  &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L  &hm RIGHT_COMMAND APOSTROPHE   &none
-  &none  &hm LG(LA(LC(LSHIFT))) Z           &kp X               &kp C             &kp V  &hm LA(LC(LSHIFT)) B        &kp N              &kp M            &kp COMMA          &kp DOT                     &kp SLASH   &none
+  &none        &hm LEFT_COMMAND A  &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F                 &hm LG(LA(LC(LSHIFT))) G        &kp H  &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L  &hm RIGHT_COMMAND APOSTROPHE   &none
+  &none  &kp  Z           &kp X               &kp C             &kp V  &hm LA(LC(LSHIFT)) B        &kp N              &kp M            &kp COMMA          &kp DOT                     &kp SLASH   &none
                                                                 &none       &lt 1 SPACE             &lt 3 TAB  &lt 4 ENTER         &lt 3 BSPC                &none
             >;
         };
