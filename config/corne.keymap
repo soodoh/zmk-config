@@ -59,26 +59,18 @@
             label = "new_macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>,
-                <&kp LEFT_CONTROL &kp LEFT_SHIFT>,
-                <&macro_tap>,
-                <&kp TAB>,
-                <&macro_release>,
-                <&macro_release>,
-                <>;
+                <&macro_press &kp LEFT_CONTROL $kp LEFT_SHIFT>,
+                <&macro_tap &kp TAB>,
+                <&macro_release &kp LEFT_CONTROL $kp LEFT_SHIFT>;
         };
         forward_tab: forward_tab {
             compatible = "zmk,behavior-macro";
             label = "new_macro";
             #binding-cells = <0>;
             bindings =
-                <&macro_press>,
-                <&kp LEFT_CONTROL>,
-                <&macro_tap>,
-                <&kp TAB>,
-                <&macro_release>,
-                <&macro_release>,
-                <>;
+                <&macro_press &kp LEFT_CONTROL>,
+                <&macro_tap &kp TAB>,
+                <&macro_release &kp LEFT_CONTROL>;
         };
     };
 
