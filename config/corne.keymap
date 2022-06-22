@@ -31,6 +31,20 @@
                 <&kp>,
                 <&kp>;
         };
+        tda: tap_dance_a {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_A";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp a>, <&kp LEFT_COMMAND>;
+          };
+        tdb: tap_dance_b {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_B";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings = <&kp b>, <&kp RIGHT_COMMAND>;
+          };
     };
 
     combos {
