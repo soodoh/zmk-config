@@ -94,10 +94,10 @@
 
         navigation {
             bindings = <
-  &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT   &none      &none  &kp LEFT_CONTROL(LEFT_SHIFT(TAB))  &kp LEFT_CONTROL(TAB)      &none   &none   &none
-  &none     &none     &none   &none      &none   &none   &kp LEFT                           &kp DOWN                 &kp UP  &kp RIGHT   &none   &none
-  &none     &none     &none   &none      &none   &none      &none                              &none                  &none      &none   &none   &none
-                              &none      &none   &none  &kp ENTER                            &kp DEL                  &none
+  &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT   &none      &none  &back_tab  &forward_tab      &none   &none   &none
+  &none     &none     &none   &none      &none   &none   &kp LEFT   &kp DOWN        &kp UP  &kp RIGHT   &none   &none
+  &none     &none     &none   &none      &none   &none      &none      &none         &none      &none   &none   &none
+                              &none      &none   &none  &kp ENTER    &kp DEL         &none
             >;
         };
 
