@@ -29,61 +29,61 @@
             flavor = "tap-preferred";
             bindings = <&kp>, <&kp>;
         };
-        tdl1: tap_dance_l1 {
+        td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_L1";
+            label = "TAP_DANCE_0";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings = <&kp a>, <&kp LEFT_COMMAND>;
         };
-        tdr1: tap_dance_r1 {
+        td1: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_R1";
+            label = "TAP_DANCE_1";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings =
                 <&kp APOS>,
                 <&kp RIGHT_COMMAND>;
         };
-        tdl2: tap_dance_l2 {
+        td2: tap_dance_2 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_L2";
+            label = "TAP_DANCE_2";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings =
                 <&kp s>,
                 <&kp LEFT_ALT>;
         };
-        tdr2: tap_dance_r2 {
+        td3: tap_dance_3 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_R2";
+            label = "TAP_DANCE_3";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings =
                 <&kp l>,
                 <&kp RIGHT_ALT>;
         };
-        tdl3: tap_dance_l3 {
+        td4: tap_dance_4 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_L3";
+            label = "TAP_DANCE_4";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings =
                 <&kp d>,
                 <&kp LEFT_CONTROL>;
         };
-        tdr3: tap_dance_r3 {
+        td5: tap_dance_5 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_R3";
+            label = "TAP_DANCE_5";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings =
                 <&kp k>,
                 <&kp RIGHT_CONTROL>;
         };
-        tdl4: tap_dance_l4 {
+        td6: tap_dance_6 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_L4";
+            label = "TAP_DANCE_6";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings =
@@ -91,9 +91,9 @@
                 <&kp LEFT_SHIFT>,
                 <&caps_word>;
         };
-        tdr4: tap_dance_r4 {
+        td7: tap_dance_7 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_R4";
+            label = "TAP_DANCE_7";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings =
@@ -129,7 +129,7 @@
         default_layer {
             bindings = <
   &none   &kp Q           &kp W               &kp E             &kp R                     &kp T        &kp Y              &kp U                &kp I            &kp O      &kp P   &none
-  &none    &tdl1  &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &hm LG(LA(LC(LSHIFT))) G        &kp H  &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L       &tdr1   &none
+  &none    &td0  &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &hm LG(LA(LC(LSHIFT))) G        &kp H  &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L       &td1   &none
   &none   &kp Z           &kp X               &kp C             &kp V      &hm LA(LC(LSHIFT)) B        &kp N              &kp M            &kp COMMA          &kp DOT  &kp SLASH   &none
                                               &none       &lt 1 SPACE                 &lt 3 TAB  &lt 4 ENTER         &lt 3 BSPC                &none
             >;
@@ -137,7 +137,7 @@
 
         navigation {
             bindings = <
-  &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT   &none      &none     &none   &none      &none   &none   &none
+  &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT   &none      &none     &kp LEFT_CONTROL(LEFT_SHIFT(TAB))   &kp LEFT_CONTROL(TAB)      &none   &none   &none
   &none     &none     &none   &none      &none   &none   &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT   &none   &none
   &none     &none     &none   &none      &none   &none      &none     &none   &none      &none   &none   &none
                               &none      &none   &none  &kp ENTER   &kp DEL   &none
