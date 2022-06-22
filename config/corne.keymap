@@ -31,23 +31,79 @@
                 <&kp>,
                 <&kp>;
         };
-        tda: tap_dance_a {
+        tdl1: tap_dance_l1 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_A";
+            label = "TAP_DANCE_L1";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings =
                 <&kp a>,
                 <&kp LEFT_COMMAND>;
         };
-        tdb: tap_dance_b {
+        tdr1: tap_dance_r1 {
             compatible = "zmk,behavior-tap-dance";
-            label = "TAP_DANCE_B";
+            label = "TAP_DANCE_R1";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
             bindings =
-                <&kp b>,
+                <&kp APOS>,
                 <&kp RIGHT_COMMAND>;
+        };
+        tdl2: tap_dance_l2 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_L2";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings =
+                <&kp s>,
+                <&kp LEFT_ALT>;
+        };
+        tdr2: tap_dance_r2 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_R2";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings =
+                <&kp l>,
+                <&kp RIGHT_ALT>;
+        };
+        tdl3: tap_dance_l3 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_L3";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings =
+                <&kp d>,
+                <&kp LEFT_CONTROL>;
+        };
+        tdr3: tap_dance_r3 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_R3";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings =
+                <&kp k>,
+                <&kp RIGHT_CONTROL>;
+        };
+        tdl4: tap_dance_l4 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_L4";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings =
+                <&kp f>,
+                <&kp LEFT_SHIFT>,
+                <&caps_word>;
+        };
+        tdr4: tap_dance_r4 {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_R4";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            bindings =
+                <&kp j>,
+                <&kp RIGHT_SHIFT>,
+                <&caps_word>;
         };
     };
 
