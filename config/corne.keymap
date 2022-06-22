@@ -27,14 +27,18 @@
             #binding-cells = <2>;
             tapping_term_ms = <200>;
             flavor = "tap-preferred";
-            bindings = <&kp>, <&kp>;
+            bindings =
+                <&kp>,
+                <&kp>;
         };
         td0: tap_dance_0 {
             compatible = "zmk,behavior-tap-dance";
             label = "TAP_DANCE_0";
             #binding-cells = <0>;
             tapping-term-ms = <200>;
-            bindings = <&kp a>, <&kp LEFT_COMMAND>;
+            bindings =
+                <&kp a>,
+                <&kp LEFT_COMMAND>;
         };
         td1: tap_dance_1 {
             compatible = "zmk,behavior-tap-dance";
@@ -128,19 +132,19 @@
 
         default_layer {
             bindings = <
-  &none   &kp Q           &kp W               &kp E             &kp R                     &kp T        &kp Y              &kp U                &kp I            &kp O      &kp P   &none
-  &none    &td0  &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &hm LG(LA(LC(LSHIFT))) G        &kp H  &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L       &td1   &none
-  &none   &kp Z           &kp X               &kp C             &kp V      &hm LA(LC(LSHIFT)) B        &kp N              &kp M            &kp COMMA          &kp DOT  &kp SLASH   &none
-                                              &none       &lt 1 SPACE                 &lt 3 TAB  &lt 4 ENTER         &lt 3 BSPC                &none
+  &none               &kp Q           &kp W               &kp E             &kp R                     &kp T        &kp Y              &kp U                &kp I            &kp O                         &kp P   &none
+  &none  &hm LEFT_COMMAND A  &hm LEFT_ALT S  &hm LEFT_CONTROL D  &hm LEFT_SHIFT F  &hm LG(LA(LC(LSHIFT))) G        &kp H  &hm RIGHT_SHIFT J  &hm RIGHT_CONTROL K  &hm RIGHT_ALT L  &hm RIGHT_COMMAND APOSTROPHE   &none
+  &none               &kp Z           &kp X               &kp C             &kp V      &hm LA(LC(LSHIFT)) B        &kp N              &kp M            &kp COMMA          &kp DOT                     &kp SLASH   &none
+                                                          &none       &lt 1 SPACE                 &lt 3 TAB  &lt 4 ENTER         &lt 3 BSPC                &none
             >;
         };
 
         navigation {
             bindings = <
-  &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT   &none      &none     &kp LEFT_CONTROL(LEFT_SHIFT(TAB))   &kp LEFT_CONTROL(TAB)      &none   &none   &none
-  &none     &none     &none   &none      &none   &none   &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT   &none   &none
-  &none     &none     &none   &none      &none   &none      &none     &none   &none      &none   &none   &none
-                              &none      &none   &none  &kp ENTER   &kp DEL   &none
+  &none  &kp LEFT  &kp DOWN  &kp UP  &kp RIGHT   &none      &none  &kp LEFT_CONTROL(LEFT_SHIFT(TAB))  &kp LEFT_CONTROL(TAB)      &none   &none   &none
+  &none     &none     &none   &none      &none   &none   &kp LEFT                           &kp DOWN                 &kp UP  &kp RIGHT   &none   &none
+  &none     &none     &none   &none      &none   &none      &none                              &none                  &none      &none   &none   &none
+                              &none      &none   &none  &kp ENTER                            &kp DEL                  &none
             >;
         };
 
