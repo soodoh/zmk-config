@@ -63,8 +63,7 @@
                 <&kp LEFT_CONTROL &kp LEFT_SHIFT>,
                 <&macro_tap>,
                 <&kp TAB>,
-                <&macro_release>,
-                <>;
+                <&macro_release>;
         };
         forward_tab: forward_tab {
             compatible = "zmk,behavior-macro";
@@ -75,8 +74,7 @@
                 <&kp LEFT_CONTROL>,
                 <&macro_tap>,
                 <&kp TAB>,
-                <&macro_release>,
-                <>;
+                <&macro_release>;
         };
     };
 
