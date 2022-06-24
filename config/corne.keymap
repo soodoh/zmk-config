@@ -18,7 +18,6 @@
 #define FN 5
 
 / {
-    //  Homerow mod held behaviour 
 
     behaviors {
         hm: homerow_mods {
@@ -30,6 +29,20 @@
             bindings =
                 <&kp>,
                 <&kp>;
+        };
+        tdls: tap_dance_left_shift {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_LEFT_SHIFT";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            binding = <&kp f>, <&kp LEFT_SHIFT>, <&caps_word >;
+        };
+        tdrs: tap_dance_right_shift {
+            compatible = "zmk,behavior-tap-dance";
+            label = "TAP_DANCE_RIGHT_SHIFT";
+            #binding-cells = <0>;
+            tapping-term-ms = <200>;
+            binding = <&kp j>, <&kp RIGHT_SHIFT>, <&caps_word >;
         };
     };
 
