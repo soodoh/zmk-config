@@ -59,22 +59,26 @@
         compatible = "zmk,combos";
 
         jk_escape {
+            timeout-ms = <50>;
             bindings = <&kp ESCAPE>;
             key-positions = <19 20>;
             layers = <0>;
         };
 
         meh {
+            timeout-ms = <50>;
             bindings = <&kp LA(LC(LSHIFT))>;
             key-positions = <26 27>;
         };
 
         hyper {
+            timeout-ms = <50>;
             bindings = <&kp LG(LA(LC(LSHIFT)))>;
             key-positions = <26 27 28>;
         };
 
         caps_word {
+            timeout-ms = <50>;
             bindings = <&caps_word>;
             key-positions = <16 19>;
         };
