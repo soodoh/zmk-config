@@ -23,8 +23,8 @@
             label = "LEFT_HOMEROW_MODS";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping_term_ms = <280>;
-            quick-tap-ms = <175>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <100>;
             bindings =
                 <&kp>,
                 <&kp>;
@@ -35,8 +35,8 @@
             label = "RIGHT_HOMEROW_MODS";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping_term_ms = <280>;
-            quick-tap-ms = <175>;
+            tapping-term-ms = <200>;
+            quick-tap-ms = <100>;
             bindings =
                 <&kp>,
                 <&kp>;
@@ -47,8 +47,7 @@
             label = "SHIFT_HOMEROW_MODS";
             #binding-cells = <2>;
             flavor = "tap-preferred";
-            tapping_term_ms = <280>;
-            quick-tap-ms = <175>;
+            tapping-term-ms = <200>;
             bindings =
                 <&kp>,
                 <&kp>;
