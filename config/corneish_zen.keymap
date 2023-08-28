@@ -38,7 +38,7 @@
             tapping-term-ms = <TAPPING_TERM_MS>;
             quick-tap-ms = <QUICK_TAP_MS>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <ALL_RIGHT>;
+            hold-trigger-key-positions = <ALL_RIGHT CMD_LEFT>;
             hold-trigger-on-release;
         };
         lctrl: left_ctrl_mod {
@@ -49,7 +49,7 @@
             tapping-term-ms = <TAPPING_TERM_MS>;
             quick-tap-ms = <QUICK_TAP_MS>;
             bindings = <&kp>, <&kp>;
-            hold-trigger-key-positions = <ALL_RIGHT>;
+            hold-trigger-key-positions = <ALL_RIGHT CTRL_LEFT>;
             hold-trigger-on-release;
         };
         lalt: left_alt_mod {
