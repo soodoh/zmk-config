@@ -37,6 +37,7 @@
             flavor = "balanced";
             tapping-term-ms = <TAPPING_TERM_MS>;
             quick-tap-ms = <QUICK_TAP_MS>;
+            global-quick-tap-ms = <GLOBAL_TAP_MS>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <ALL_RIGHT CMD_LEFT>;
             hold-trigger-on-release;
@@ -48,6 +49,7 @@
             flavor = "balanced";
             tapping-term-ms = <TAPPING_TERM_MS>;
             quick-tap-ms = <QUICK_TAP_MS>;
+            global-quick-tap-ms = <GLOBAL_TAP_MS>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <ALL_RIGHT CTRL_LEFT>;
             hold-trigger-on-release;
@@ -59,6 +61,7 @@
             flavor = "balanced";
             tapping-term-ms = <TAPPING_TERM_MS>;
             quick-tap-ms = <QUICK_TAP_MS>;
+            global-quick-tap-ms = <GLOBAL_TAP_MS>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <ALL_RIGHT>;
             hold-trigger-on-release;
@@ -70,6 +73,7 @@
             flavor = "balanced";
             tapping-term-ms = <TAPPING_TERM_MS>;
             quick-tap-ms = <QUICK_TAP_MS>;
+            global-quick-tap-ms = <GLOBAL_TAP_MS>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <ALL_LEFT>;
             hold-trigger-on-release;
@@ -81,6 +85,7 @@
             flavor = "balanced";
             tapping-term-ms = <TAPPING_TERM_MS>;
             quick-tap-ms = <QUICK_TAP_MS>;
+            global-quick-tap-ms = <GLOBAL_TAP_MS>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <ALL_LEFT>;
             hold-trigger-on-release;
@@ -92,6 +97,7 @@
             flavor = "balanced";
             tapping-term-ms = <TAPPING_TERM_MS>;
             quick-tap-ms = <QUICK_TAP_MS>;
+            global-quick-tap-ms = <GLOBAL_TAP_MS>;
             bindings = <&kp>, <&kp>;
             hold-trigger-key-positions = <ALL_LEFT>;
             hold-trigger-on-release;
@@ -103,6 +109,7 @@
             flavor = "tap-preferred";
             tapping-term-ms = <TAPPING_TERM_MS>;
             quick-tap-ms = <QUICK_TAP_MS>;
+            global-quick-tap-ms = <GLOBAL_TAP_MS>;
             bindings = <&kp>, <&kp>;
         };
     };
