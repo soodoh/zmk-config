@@ -138,55 +138,55 @@
 
         default_layer {
             bindings = <                
-                 &kp Q              &kp W                  &kp E                &kp R      &kp T        &kp Y                 &kp U                   &kp I               &kp O                            &kp P
- &lcmd LEFT_COMMAND A  &lalt LEFT_ALT S  &lctrl LEFT_CONTROL D  &ht_tp LEFT_SHIFT F      &kp G        &kp H  &ht_tp RIGHT_SHIFT J  &rctrl RIGHT_CONTROL K  &ralt RIGHT_ALT L  &rcmd RIGHT_COMMAND APOSTROPHE
-                 &kp Z              &ht_tp LEFT_COMMAND X                  &ht_tp LA(LC(LSHIFT)) C                &kp V      &kp B        &kp N                 &kp M               &kp COMMA             &kp DOT                        &kp SLASH
-                                                                          &lt <NAVI> SPACE  &lt <NUM> TAB  &lt <SYM> ENTER            &lt <NUM> BSPC
+&kp Q              &kp W                  &kp E                &kp R      &kp T        &kp Y                 &kp U                   &kp I               &kp O                            &kp P
+&lcmd LEFT_COMMAND A  &lalt LEFT_ALT S  &lctrl LEFT_CONTROL D  &ht_tp LEFT_SHIFT F      &kp G        &kp H  &ht_tp RIGHT_SHIFT J  &rctrl RIGHT_CONTROL K  &ralt RIGHT_ALT L  &rcmd RIGHT_COMMAND APOSTROPHE
+&kp Z              &ht_tp LEFT_COMMAND X                  &ht_tp LA(LC(LSHIFT)) C                &kp V      &kp B        &kp N                 &kp M               &kp COMMA             &kp DOT                        &kp SLASH
+&lt <NAVI> SPACE  &lt <NUM> TAB  &lt <SYM> ENTER            &lt <NUM> BSPC
             >;
         };
 
         navigation {
             bindings = <
-      &kp LEFT      &kp DOWN            &kp UP       &kp RIGHT   &none      &none  &kp LC(LS(TAB))  &kp LC(TAB)      &none   &none
- &kp LEFT_META  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT   &none   &kp LEFT   &kp DOWN        &kp UP  &kp RIGHT   &none
-         &none         &none             &none           &none   &none      &none      &none         &none      &none   &none
-                                                         &none   &none  &kp ENTER    &kp DEL
+&kp LEFT      &kp DOWN            &kp UP       &kp RIGHT   &none      &none  &kp LC(LS(TAB))  &kp LC(TAB)      &none   &none
+&kp LEFT_META  &kp LEFT_ALT  &kp LEFT_CONTROL  &kp LEFT_SHIFT   &none   &kp LEFT   &kp DOWN        &kp UP  &kp RIGHT   &none
+&none         &none             &none           &none   &none      &none      &none         &none      &none   &none
+&none   &none  &kp ENTER    &kp DEL
             >;
         };
 
         media {
             bindings = <
-   &bt BT_CLR         &none         &none         &none         &none             &none       &none         &none         &none       &none
- &bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4             &none  &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT
-        &none         &none         &none         &none         &none             &none       &none         &none         &none       &none
-                                                  &none         &none  &kp C_PLAY_PAUSE  &kp C_MUTE
+&bt BT_CLR         &none         &none         &none         &none             &none       &none         &none         &none       &none
+&bt BT_SEL 0  &bt BT_SEL 1  &bt BT_SEL 2  &bt BT_SEL 3  &bt BT_SEL 4             &none  &kp C_PREV  &kp C_VOL_DN  &kp C_VOL_UP  &kp C_NEXT
+&none         &none         &none         &none         &none             &none       &none         &none         &none       &none
+&none         &none  &kp C_PLAY_PAUSE  &kp C_MUTE
             >;
         };
 
         numbers {
             bindings = <
-  &kp LBKT  &kp N7  &kp N8  &kp N9   &kp RBKT   &none            &none              &none          &none           &none
-  &kp SEMI  &kp N4  &kp N5  &kp N6  &kp EQUAL   &none  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_META
- &kp GRAVE  &kp N1  &kp N2  &kp N3   &kp BSLH   &none            &none              &none        &kp DOT           &kp SLASH
-                            &kp N0  &kp MINUS   &none            &none
+&kp LBKT  &kp N7  &kp N8  &kp N9   &kp RBKT   &none            &none              &none          &none           &none
+&kp SEMI  &kp N4  &kp N5  &kp N6  &kp EQUAL   &none  &kp RIGHT_SHIFT  &kp RIGHT_CONTROL  &kp RIGHT_ALT  &kp RIGHT_META
+&kp GRAVE  &kp N1  &kp N2  &kp N3   &kp BSLH   &none            &none              &none        &kp DOT           &kp SLASH
+&kp N0  &kp MINUS   &none            &none
             >;
         };
 
         symbols {
             bindings = <
-  &kp LBRC  &kp AMPS   &kp STAR   &kp LPAR        &kp RBRC   &none   &none   &none   &none   &none
- &kp COLON  &kp DLLR  &kp PRCNT  &kp CARET        &kp PLUS   &none   &none   &none   &none   &none
- &kp TILDE  &kp EXCL     &kp AT   &kp HASH        &kp PIPE   &none   &none   &none   &none   &none
-                                  &kp RPAR  &kp UNDERSCORE   &none   &none
+&kp LBRC  &kp AMPS   &kp STAR   &kp LPAR        &kp RBRC   &none   &none   &none   &none   &none
+&kp COLON  &kp DLLR  &kp PRCNT  &kp CARET        &kp PLUS   &none   &none   &none   &none   &none
+&kp TILDE  &kp EXCL     &kp AT   &kp HASH        &kp PIPE   &none   &none   &none   &none   &none
+&kp RPAR  &kp UNDERSCORE   &none   &none
             >;
         };
 
         function_keys {
             bindings = <
-  &kp F1   &kp F2   &kp F3   &kp F4   &kp F5   &none   &none   &none   &none   &none
-  &kp F6   &kp F7   &kp F8   &kp F9  &kp F10   &none   &none   &none   &none   &none
- &kp F11  &kp F12  &kp F13  &kp F14  &kp F15   &none   &none   &none   &none   &none
-                              &none    &none   &none   &none
+&kp F1   &kp F2   &kp F3   &kp F4   &kp F5   &none   &none   &none   &none   &none
+&kp F6   &kp F7   &kp F8   &kp F9  &kp F10   &none   &none   &none   &none   &none
+&kp F11  &kp F12  &kp F13  &kp F14  &kp F15   &none   &none   &none   &none   &none
+&none    &none   &none   &none
             >;
         };
     };
