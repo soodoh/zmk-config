@@ -114,7 +114,7 @@
         jk_escape {
             bindings = <&kp ESCAPE>;
             key-positions = <16 17>;
-            layers = <0>;
+            layers = <DEFAULT>;
         };
 
         sticky_layer_2 {
@@ -141,7 +141,7 @@
                  &kp Q              &kp W                  &kp E                &kp R      &kp T        &kp Y                 &kp U                   &kp I               &kp O                            &kp P
  &lcmd LEFT_COMMAND A  &lalt LEFT_ALT S  &lctrl LEFT_CONTROL D  &ht_tp LEFT_SHIFT F      &kp G        &kp H  &ht_tp RIGHT_SHIFT J  &rctrl RIGHT_CONTROL K  &ralt RIGHT_ALT L  &rcmd RIGHT_COMMAND APOSTROPHE
                  &kp Z              &ht_tp LEFT_COMMAND X                  &ht_tp LA(LC(LSHIFT)) C                &kp V      &kp B        &kp N                 &kp M               &kp COMMA             &kp DOT                        &kp SLASH
-                                                                          &lt 1 SPACE  &lt 3 TAB  &lt 4 ENTER            &lt 3 BSPC
+                                                                          &lt <NAVI> SPACE  &lt <NUM> TAB  &lt <SYM> ENTER            &lt <NUM> BSPC
             >;
         };
 
