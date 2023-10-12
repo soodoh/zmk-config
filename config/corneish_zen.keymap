@@ -85,7 +85,6 @@
             flavor = "balanced";
             tapping-term-ms = <TAPPING_TERM_MS>;
             quick-tap-ms = <QUICK_TAP_MS>;
-            require-prior-idle-ms = <PRIOR_IDLE_MS>;
             bindings = <&kp>, <&kp>;
         };
         hyp: hyper {
