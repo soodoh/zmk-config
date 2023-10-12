@@ -34,7 +34,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "LEFT_CMD_MOD";
             #binding-cells = <2>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             tapping-term-ms = <TAPPING_TERM_MS>;
             quick-tap-ms = <QUICK_TAP_MS>;
             require-prior-idle-ms = <PRIOR_IDLE_MS>;
@@ -46,7 +46,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "LEFT_CTRL_MOD";
             #binding-cells = <2>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             tapping-term-ms = <TAPPING_TERM_MS>;
             quick-tap-ms = <QUICK_TAP_MS>;
             require-prior-idle-ms = <PRIOR_IDLE_MS>;
@@ -58,7 +58,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "LEFT_ALT_MOD";
             #binding-cells = <2>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             tapping-term-ms = <TAPPING_TERM_MS>;
             quick-tap-ms = <QUICK_TAP_MS>;
             require-prior-idle-ms = <PRIOR_IDLE_MS>;
@@ -70,7 +70,7 @@
             compatible = "zmk,behavior-hold-tap";
             label = "RIGHT_MODS";
             #binding-cells = <2>;
-            flavor = "balanced";
+            flavor = "tap-preferred";
             tapping-term-ms = <TAPPING_TERM_MS>;
             quick-tap-ms = <QUICK_TAP_MS>;
             require-prior-idle-ms = <PRIOR_IDLE_MS>;
