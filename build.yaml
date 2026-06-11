@@ -1,12 +1,12 @@
 ---
 include:
-  - board: corneish_zen_v2_left
-  - board: corneish_zen_v2_right
-  - board: nice_nano_v2
+  - board: corneish_zen_left//zmk
+  - board: corneish_zen_right//zmk
+  - board: nice_nano//zmk
     shield: cradio_left
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: cradio_right
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: corne_left nice_view_adapter nice_view
-  - board: nice_nano_v2
+  - board: nice_nano//zmk
     shield: corne_right nice_view_adapter nice_view
